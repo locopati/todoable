@@ -5,6 +5,7 @@ require 'securerandom'
 
 RSpec.describe TodoableList do
 
+  # in a production test we would have a test user and we would not store this info in a publicly accessible file
   TEST_USER = 'andy.kriger@gmail.com'.freeze
   TEST_PASS = 'todoable'.freeze
 

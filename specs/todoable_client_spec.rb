@@ -4,7 +4,7 @@ require 'webmock/rspec'
 
 RSpec.describe TodoableClient do
 
-  # in a production test we would have a test user
+  # in a production test we would have a test user and we would not store this info in a publicly accessible file
   subject { TodoableClient.new 'andy.kriger@gmail.com', 'todoable' }
 
   before(:all) { WebMock.allow_net_connect! }
