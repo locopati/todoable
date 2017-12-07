@@ -1,6 +1,6 @@
 **What is this?**
 
-The Todoable gem is a client for accessing the Teachable Todoable API
+The Todoable gem is a client for accessing the [Teachable Todoable API](http://todoable.teachable.tech/)
 
 <br/>
 

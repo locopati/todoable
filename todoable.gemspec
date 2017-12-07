@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Andy Kriger']
   s.email       = 'andy.kriger@gmail.com'
   s.files       = Dir.glob('lib/**/*')
-  s.homepage    = ''
+  s.homepage    = 'https://github.com/locopati/todoable'
   # we could just as easily use the built-in Minitest
   # however, i prefer rspec
   s.add_development_dependency 'rspec'
