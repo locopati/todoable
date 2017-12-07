@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.4
+
+Layout/EmptyLines:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+Layout/TrailingBlankLines:
+  Enabled: false
+Layout/TrailingWhitespace:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+Metrics/LineLength:
+  Max: 144 # modern screens are big!
+Metrics/MethodLength:
+  Max: 24
+Metrics/BlockLength:
+  Exclude:
+    - specs/**/*
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
