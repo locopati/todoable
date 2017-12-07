@@ -8,7 +8,8 @@ The Todoable gem is a client for accessing the [Teachable Todoable API](http://t
 
 on the command-line...
 ```bash
-gem build
+rake build
+rake install
 bundle install
 bundle info todoable
 rake console
@@ -21,9 +22,9 @@ client = TodoableClient.new <username>, <password>
 # get all lists
 lists = TodoableList.all client: client
 # get a list
-list = TodoableList.by_id lists.first['id'], client: client
+list = TodoableList.by_id lists.first.id, client: client
 # create a list
-list = TodoableList.new name: uniquename, client: client
+list = TodoableList.new name: '<uniquename>', client: client
 # update a list
 list.update 'new name'
 # get items from a list
